@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organizer</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div><a href="index.html">home</a></div>
+    </header>
+    <main>
+      <table class="input" border="2">
+        <thead>
+          <tr>
+            <th>kegiatan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <input type="text" name="kegiatan" id="input" required />
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2">
+              <input onclick="get()" type="submit" />
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+      <table id="output" border="2">
+        <thead>
+          <tr>
+            <th>To Do List</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <script src="index.js"></script>
+    </main>
+    <footer>
+      <div class="mark">rizky yoditia @ 2020</div>
+    </footer>
+  </body>
+</html>

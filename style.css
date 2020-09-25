@@ -1,0 +1,74 @@
+header {
+  background-color: rgba(83, 88, 60, 0.295);
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  padding: 15px;
+}
+
+div {
+  text-align: left;
+  text-decoration-style: none;
+  font-weight: bold;
+  color: black;
+  margin-left: 10px;
+}
+
+body {
+  background: url(bg.jpeg);
+}
+
+.input {
+  position: fixed;
+  background-color: rgb(192, 151, 39);
+  border: 5px medium black;
+  top: 20%;
+  left: 20%;
+}
+
+#main {
+  position: absolute;
+  background-color: rgb(192, 151, 39);
+  border: 5px medium black;
+  top: 40%;
+  left: 40%;
+  right: 50%;
+  width: 30px;
+}
+
+#output {
+  width: 10cm;
+  position: fixed;
+  background-color: rgb(192, 151, 39);
+  border: 5px medium black;
+  top: 20%;
+  right: 20%;
+}
+
+h1 {
+  margin-top: 8%;
+  margin-right: 7%;
+  text-align: center;
+}
+
+.center {
+  position: fixed;
+  text-align: center;
+  margin: auto;
+}
+
+footer {
+  position: absolute;
+  background-color: rgb(8, 100, 8);
+  bottom: 0%;
+  width: 100%;
+  padding: 10px;
+  opacity: 30%;
+}
+
+.mark {
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-overflow: clip;
+}

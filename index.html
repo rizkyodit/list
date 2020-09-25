@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organizer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div><a href="./index.html">home</a></div>
+    </header>
+    <main>
+      <h1>DAILY TO DO LIST</h1>
+      <table id="main" border="2">
+        <td>
+          <form action="task-list.html">
+            <label for="nama">Masukkan nama anda disini</label>
+            <br />
+            <input type="text" name="nama" id="nama" required />
+            <br />
+            <select name="jenis-kelamin" id="jenis-kelamin" required>
+              <option disabled selected value>
+                Tentukan jenis kelamin anda
+              </option>
+              <option value="pria">Pria</option>
+              <option value="atau">Atau</option>
+              <!-- sengaja kak ga di disabled ehehe -->
+              <option value="wanita">Wanita</option>
+            </select>
+            <input type="submit" value="submit" />
+          </form>
+        </td>
+      </table>
+    </main>
+    <footer>
+      <div class="mark">rizky yoditia @ 2020</div>
+    </footer>
+  </body>
+</html>
